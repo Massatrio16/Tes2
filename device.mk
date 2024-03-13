@@ -26,8 +26,8 @@ PRODUCT_PACKAGES += \
  
 # Boot control HAL
 PRODUCT_PACKAGES += \
-vendor.sprd.hardware.boot@1.2-impl \
-vendor.sprd.hardware.boot@1.2-impl-recovery
+vendor.sprd.hardware.boot@1.0-impl \
+vendor.sprd.hardware.boot@1.0-impl-recovery
 
 PRODUCT_PACKAGES_DEBUG += \
 unisoc.bootctrl
