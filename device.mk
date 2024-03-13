@@ -26,8 +26,10 @@ PRODUCT_PACKAGES += \
  
 # Boot control HAL
 PRODUCT_PACKAGES += \
-vendor.sprd.hardware.boot@1.0-impl \
-vendor.sprd.hardware.boot@1.0-impl-recovery
+android.hardware.boot@1.0-impl \
+android.hardware.boot@1.0-impl-recovery \
+vendor.sprd.hardware.boot@1.2-impl \
+vendor.sprd.hardware.boot@1.2-impl-recovery
 
 PRODUCT_PACKAGES_DEBUG += \
 unisoc.bootctrl
@@ -54,8 +56,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 AB_OTA_UPDATER := true
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 30
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_TARGET_VNDK_VERSION := 31
+PRODUCT_SHIPPING_API_LEVEL := 31
 # A/B
 
 
